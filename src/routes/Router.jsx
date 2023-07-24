@@ -7,6 +7,8 @@ import ErrorPage from "../pages/ErrorPage";
 import Colleges from "../pages/Colleges";
 import CollegeDetails from "../pages/CollegeDetails";
 import PrivateRoute from "./PrivateRoute";
+import Admission from "../pages/Admission";
+import StudentInput from "../pages/StudentInput";
 
 export const router = createBrowserRouter([
   {
@@ -29,12 +31,28 @@ export const router = createBrowserRouter([
       {
         path: "colleges",
         element: <Colleges></Colleges>,
-      },{
-        path: "/college-details/:id",
-        element:<PrivateRoute> <CollegeDetails></CollegeDetails></PrivateRoute>,
-        loader: ({ params }) =>
-          fetch(`https://edu-connect-server.vercel.app/college-details/${params.id}`),
       },
+      {
+        path: "admission",
+        element: <Admission></Admission>,
+      },
+      {
+        path: "/college-details/:id",
+        element: (
+          <PrivateRoute>
+            {" "}
+            <CollegeDetails></CollegeDetails>
+          </PrivateRoute>
+        ),
+        loader: ({ params }) =>
+          fetch(
+            `https://edu-connect-server.vercel.app/college-details/${params.id}`
+          ),
+        },
+        {
+            path: "/admission/:id",
+            element:<StudentInput></StudentInput>
+      }
     ],
   },
 ]);
