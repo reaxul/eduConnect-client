@@ -1,0 +1,316 @@
+[
+      {
+        "collegeName": "University of ABC",
+        "collegeImage": "university_of_abc.jpg",
+        "collegeRating": 4.5,
+        "admissionDate": "2023-09-15",
+        "admissionEndTime": "2023-09-30T23:59:59",
+        "admissionProcess": "Online application and interview",
+        "events": [
+          {
+            "eventName": "Annual Fest",
+            "eventDate": "2023-10-20",
+            "eventDetails": "Cultural and sports events for students",
+            "eventImage": "annual_fest.jpg"
+          },
+          {
+            "eventName": "Tech Expo",
+            "eventDate": "2023-11-15",
+            "eventDetails": "Showcasing innovative tech projects",
+            "eventImage": "tech_expo.jpg"
+          }
+        ],
+        "numberOfResearch": 150,
+        "researchHistory": "Founded in 1965",
+        "researchWorks": [
+          {
+            "title": "Advancements in AI",
+            "author": "John Doe",
+            "publishedDate": "2022-05-01",
+            "researchLink": "ai_research.pdf"
+          },
+          {
+            "title": "Climate Change Impact",
+            "author": "Jane Smith",
+            "publishedDate": "2021-11-10",
+            "researchLink": "climate_change.pdf"
+          }
+        ],
+        "sports": [
+          {
+            "sportName": "Football",
+            "category": "Men's",
+            "coach": "David Johnson",
+            "teamImage": "football_team.jpg"
+          },
+          {
+            "sportName": "Basketball",
+            "category": "Women's",
+            "coach": "Sarah Williams",
+            "teamImage": "basketball_team.jpg"
+          }
+        ]
+      },
+      {
+        "collegeName": "ABC Institute of Technology",
+        "collegeImage": "abc_institute.jpg",
+        "collegeRating": 4.2,
+        "admissionDate": "2023-09-30",
+        "admissionEndTime": "2023-10-15T23:59:59",
+        "admissionProcess": "Online application and entrance exam",
+        "events": [
+          {
+            "eventName": "Tech Fair",
+            "eventDate": "2023-10-25",
+            "eventDetails": "Exhibition of student projects and innovations",
+            "eventImage": "tech_fair.jpg"
+          },
+          {
+            "eventName": "Coding Competition",
+            "eventDate": "2023-11-20",
+            "eventDetails": "Programming contest for students",
+            "eventImage": "coding_competition.jpg"
+          }
+        ],
+        "numberOfResearch": 100,
+        "researchHistory": "Established in 1987",
+        "researchWorks": [
+          {
+            "title": "Future of Robotics",
+            "author": "Mark Anderson",
+            "publishedDate": "2022-08-15",
+            "researchLink": "robotics_research.pdf"
+          },
+          {
+            "title": "Machine Learning Trends",
+            "author": "Emily Lee",
+            "publishedDate": "2022-01-05",
+            "researchLink": "ml_trends.pdf"
+          }
+        ],
+        "sports": [
+          {
+            "sportName": "Cricket",
+            "category": "Men's",
+            "coach": "Michael Brown",
+            "teamImage": "cricket_team.jpg"
+          },
+          {
+            "sportName": "Tennis",
+            "category": "Women's",
+            "coach": "Lisa Adams",
+            "teamImage": "tennis_team.jpg"
+          }
+        ]
+      },
+      {
+        "collegeName": "XYZ College of Arts",
+        "collegeImage": "xyz_college.jpg",
+        "collegeRating": 4.0,
+        "admissionDate": "2023-09-25",
+        "admissionEndTime": "2023-10-10T23:59:59",
+        "admissionProcess": "Portfolio submission and interview",
+        "events": [
+          {
+            "eventName": "Art Exhibition",
+            "eventDate": "2023-10-30",
+            "eventDetails": "Showcasing creative artworks by students",
+            "eventImage": "art_exhibition.jpg"
+          },
+          {
+            "eventName": "Literary Fest",
+            "eventDate": "2023-11-25",
+            "eventDetails": "Celebrating literature through various activities",
+            "eventImage": "literary_fest.jpg"
+          }
+        ],
+        "numberOfResearch": 80,
+        "researchHistory": "Focused on arts and culture",
+        "researchWorks": [
+          {
+            "title": "Modern Art Movements",
+            "author": "Michael Clark",
+            "publishedDate": "2022-06-20",
+            "researchLink": "modern_art.pdf"
+          },
+          {
+            "title": "Impact of Literature on Society",
+            "author": "Lucy Adams",
+            "publishedDate": "2021-12-15",
+            "researchLink": "literature_impact.pdf"
+          }
+        ],
+        "sports": [
+          {
+            "sportName": "Painting",
+            "category": "Fine Arts",
+            "coach": "Sarah Turner",
+            "teamImage": "painting_team.jpg"
+          },
+          {
+            "sportName": "Sculpture",
+            "category": "Fine Arts",
+            "coach": "Peter Anderson",
+            "teamImage": "sculpture_team.jpg"
+          }
+        ]
+      },
+      {
+        "collegeName": "ABC Medical College",
+        "collegeImage": "abc_medical.jpg",
+        "collegeRating": 4.8,
+        "admissionDate": "2023-09-20",
+        "admissionEndTime": "2023-10-05T23:59:59",
+        "admissionProcess": "Medical entrance exam and interview",
+        "events": [
+          {
+            "eventName": "Health Awareness Seminar",
+            "eventDate": "2023-10-15",
+            "eventDetails": "Educating about health and wellness",
+            "eventImage": "health_seminar.jpg"
+          },
+          {
+            "eventName": "Medical Conference",
+            "eventDate": "2023-11-10",
+            "eventDetails": "Discussing latest medical advancements",
+            "eventImage": "medical_conference.jpg"
+          }
+        ],
+        "numberOfResearch": 200,
+        "researchHistory": "Pioneering medical research institute",
+        "researchWorks": [
+          {
+            "title": "Advancements in Surgery",
+            "author": "Dr. Robert Johnson",
+            "publishedDate": "2022-03-10",
+            "researchLink": "surgery_advancements.pdf"
+          },
+          {
+            "title": "Mental Health Awareness",
+            "author": "Dr. Emily Davis",
+            "publishedDate": "2022-02-05",
+            "researchLink": "mental_health.pdf"
+          }
+        ],
+        "sports": [
+          {
+            "sportName": "Football",
+            "category": "Men's",
+            "coach": "Dr. Michael Harris",
+            "teamImage": "football_team.jpg"
+          },
+          {
+            "sportName": "Basketball",
+            "category": "Women's",
+            "coach": "Dr. Laura Smith",
+            "teamImage": "basketball_team.jpg"
+          }
+        ]
+      },
+      {
+        "collegeName": "ABC Business School",
+        "collegeImage": "abc_business.jpg",
+        "collegeRating": 4.4,
+        "admissionDate": "2023-09-18",
+        "admissionEndTime": "2023-10-03T23:59:59",
+        "admissionProcess": "Business aptitude test and group discussion",
+        "events": [
+          {
+            "eventName": "Business Conclave",
+            "eventDate": "2023-10-10",
+            "eventDetails": "Conference on business strategies",
+            "eventImage": "business_conclave.jpg"
+          },
+          {
+            "eventName": "Start-up Pitch",
+            "eventDate": "2023-11-05",
+            "eventDetails": "Competition for aspiring entrepreneurs",
+            "eventImage": "startup_pitch.jpg"
+          }
+        ],
+        "numberOfResearch": 120,
+        "researchHistory": "Fostering entrepreneurship and leadership",
+        "researchWorks": [
+          {
+            "title": "Digital Marketing Trends",
+            "author": "Dr. Mark Roberts",
+            "publishedDate": "2022-07-20",
+            "researchLink": "digital_marketing.pdf"
+          },
+          {
+            "title": "Finance Management Practices",
+            "author": "Dr. Anna Lee",
+            "publishedDate": "2021-09-15",
+            "researchLink": "finance_management.pdf"
+          }
+        ],
+        "sports": [
+          {
+            "sportName": "Cricket",
+            "category": "Men's",
+            "coach": "Dr. Peter Wilson",
+            "teamImage": "cricket_team.jpg"
+          },
+          {
+            "sportName": "Badminton",
+            "category": "Women's",
+            "coach": "Dr. Laura Turner",
+            "teamImage": "badminton_team.jpg"
+          }
+        ]
+      },
+      {
+        "collegeName": "XYZ Engineering Institute",
+        "collegeImage": "xyz_engineering.jpg",
+        "collegeRating": 4.6,
+        "admissionDate": "2023-09-22",
+        "admissionEndTime": "2023-10-07T23:59:59",
+        "admissionProcess": "Engineering entrance exam and counseling",
+        "events": [
+          {
+            "eventName": "Tech Symposium",
+            "eventDate": "2023-10-15",
+            "eventDetails": "Showcasing engineering innovations",
+            "eventImage": "tech_symposium.jpg"
+          },
+          {
+            "eventName": "Robotics Competition",
+            "eventDate": "2023-11-08",
+            "eventDetails": "Contest for robotic enthusiasts",
+            "eventImage": "robotics_competition.jpg"
+          }
+        ],
+        "numberOfResearch": 180,
+        "researchHistory": "Promoting technical research and development",
+        "researchWorks": [
+          {
+            "title": "Advancements in Renewable Energy",
+            "author": "Dr. John Turner",
+            "publishedDate": "2022-04-30",
+            "researchLink": "renewable_energy.pdf"
+          },
+          {
+            "title": "Artificial Intelligence Applications",
+            "author": "Dr. Emily Adams",
+            "publishedDate": "2022-01-15",
+            "researchLink": "ai_applications.pdf"
+          }
+        ],
+        "sports": [
+          {
+            "sportName": "Football",
+            "category": "Men's",
+            "coach": "Dr. David Harris",
+            "teamImage": "football_team.jpg"
+          },
+          {
+            "sportName": "Volleyball",
+            "category": "Women's",
+            "coach": "Dr. Sarah Turner",
+            "teamImage": "volleyball_team.jpg"
+          }
+        ]
+      }
+    ]
+
+  

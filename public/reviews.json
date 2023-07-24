@@ -1,0 +1,41 @@
+{
+    "reviews": [
+      {
+        "collegeName": "ABC College",
+        "userName": "John Doe",
+        "rating": 4.5,
+        "feedback": "Great college with excellent facilities and supportive staff."
+      },
+      {
+        "collegeName": "XYZ University",
+        "userName": "Jane Smith",
+        "rating": 5,
+        "feedback": "I had an amazing experience at XYZ University. Highly recommended!"
+      },
+      {
+        "collegeName": "PQR Institute",
+        "userName": "Michael Johnson",
+        "rating": 3.8,
+        "feedback": "Good college, but some areas need improvement."
+      },
+      {
+        "collegeName": "LMN Academy",
+        "userName": "Sarah Williams",
+        "rating": 4.2,
+        "feedback": "Overall, a decent college with helpful professors."
+      },
+      {
+        "collegeName": "EFG University",
+        "userName": "Robert Brown",
+        "rating": 4,
+        "feedback": "EFG University offers a wide range of courses and a vibrant campus."
+      },
+      {
+        "collegeName": "HIJ College",
+        "userName": "Emily Davis",
+        "rating": 4.8,
+        "feedback": "I love the friendly atmosphere and the events organized by HIJ College."
+      }
+    ]
+  }
+  
