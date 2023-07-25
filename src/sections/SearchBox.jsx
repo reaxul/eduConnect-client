@@ -1,26 +1,34 @@
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 const SearchBox = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+  const navigate = useNavigate();
+
+  const handleSearch = (event) => {
+    event.preventDefault();
+    navigate(`/search-results?term=${encodeURIComponent(searchTerm)}`);
+  };
+
   return (
-    <div className="join mb-2 mt-[70px] mt">
+    <form onSubmit={handleSearch} className="join mb-2 mt-[70px] mt">
       <div>
         <div>
           <input
+            type="text"
             className="input input-bordered join-item"
-            placeholder="Enter College Name"
+            placeholder="Search College Name"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
           />
         </div>
       </div>
-      {/* <select className="select select-bordered join-item">
-        <option disabled selected>
-          Filter
-        </option>
-        <option>Public</option>
-        <option>Private</option>
-        <option>Research</option>
-      </select> */}
       <div className="indicator">
-        <button className="btn join-item text-green-500">Search</button>
+        <button type="submit" className="btn join-item text-green-500">
+          Search
+        </button>
       </div>
-    </div>
+    </form>
   );
 };
 

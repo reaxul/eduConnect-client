@@ -10,7 +10,7 @@ const Colleges = () => {
             )
     },[])
     return (
-        <div className="pt-20">
+        <div className="py-20">
         <h2 className="text-4xl text-center font-bold mt-5">
           Find the best College for you 
         </h2>

@@ -26,7 +26,7 @@ const Gallery = () => {
           </div>
           <div>
             <img
-              data-aos="fade-right"
+              data-aos="fade-up"
               className="h-auto max-w-full rounded-lg"
               src="https://i.ibb.co/nRDjMfm/group-diverse-grads-throwing-caps-up-sky-1.jpg"
               alt=""
@@ -34,7 +34,7 @@ const Gallery = () => {
           </div>
           <div>
             <img
-              data-aos="fade-left"
+              data-aos="flip-left"
               className="h-auto max-w-full rounded-lg"
               src="https://i.ibb.co/Jc58BNZ/girls-graduation-showing-their-certificates.jpg"
               alt=""
@@ -44,7 +44,7 @@ const Gallery = () => {
         <div className="grid gap-4">
           <div>
             <img
-              data-aos="fade-up-right"
+              data-aos="flip-right"
               className="h-auto max-w-full rounded-lg"
               src="https://i.ibb.co/Tq3fRgw/portrait-group-students-celebrating-their-graduation-1.jpg"
               alt=""
@@ -52,7 +52,7 @@ const Gallery = () => {
           </div>
           <div>
             <img
-              data-aos="fade-up-left"
+              data-aos="flip-up"
               className="h-auto max-w-full rounded-lg"
               src="https://i.ibb.co/7CQyMMW/students-graduated.jpg"
               alt=""
@@ -60,7 +60,7 @@ const Gallery = () => {
           </div>
           <div>
             <img
-              data-aos="fade-down-right"
+              data-aos="flip-down"
               className="h-auto max-w-full rounded-lg"
               src="https://i.ibb.co/4MWrhvX/two-international-graduate-celebrating-graduation-university-campus-looking-camera.jpg"
               alt=""
@@ -70,7 +70,7 @@ const Gallery = () => {
         <div className="grid gap-4">
           <div>
             <img
-              data-aos="fade-down-left"
+              data-aos="fade-down"
               className="h-auto max-w-full rounded-lg"
               src="https://i.ibb.co/9cL5zTX/students-posing-back-back.jpg"
               alt=""
@@ -78,7 +78,7 @@ const Gallery = () => {
           </div>
           <div>
             <img
-              data-aos="zoom-left"
+              data-aos="zoom-in"
               className="h-auto max-w-full rounded-lg"
               src="https://i.ibb.co/f14Trfw/portrait-group-students-celebrating-their-graduation.jpg"
               alt=""
@@ -86,7 +86,7 @@ const Gallery = () => {
           </div>
           <div>
             <img
-              data-aos="fade-right"
+              data-aos="zoom-in-up"
               className="h-auto max-w-full rounded-lg"
               src="https://i.ibb.co/hdZsfhs/three-happy-graduates-smiling-holding-diplomas.jpg"
               alt=""
@@ -96,7 +96,7 @@ const Gallery = () => {
         <div className="grid gap-4">
           <div>
             <img
-              data-aos="fade-right"
+              data-aos="zoom-out"
               className="h-auto max-w-full rounded-lg"
               src="https://i.ibb.co/0Bc4dQ5/three-gradutes-friends-graduation-gowns-walking-campus.jpg"
               alt=""
@@ -104,7 +104,7 @@ const Gallery = () => {
           </div>
           <div>
             <img
-              data-aos="flip-right"
+              data-aos="zoom-out-up"
               className="h-auto max-w-full rounded-lg"
               src="https://i.ibb.co/YhNzkZs/happy-friends-gratuating.jpg"
               alt=""
@@ -112,7 +112,7 @@ const Gallery = () => {
           </div>
           <div>
             <img
-              data-aos="flip-left"
+              data-aos="zoom-out-down"
               className="h-auto max-w-full rounded-lg"
               src="https://i.ibb.co/VQTN4FV/low-angle-graduated-students.jpg"
               alt=""

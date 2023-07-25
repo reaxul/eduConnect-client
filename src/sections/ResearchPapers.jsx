@@ -59,18 +59,19 @@ const ResearchPapers = () => {
           {papers.map((paper) => (
             <div
               key={paper.id}
-              className="bg-white rounded-lg shadow p-4 dark:bg-gray-900 transition-colors hover:bg-blue-100 dark:hover:bg-gray-600"
+              className="bg-white rounded-lg shadow p-4 dark:bg-gray-900 transition-colors hover:bg-blue-100 dark:hover:bg-gray-600 "
             >
               <h3 className="text-xl font-bold mb-2 text-black dark:text-white">
                 {paper.title}
               </h3>
+              <hr />
               <p className="text-gray-600 mb-2 dark:text-gray-300">
                 {paper.author}
               </p>
               <p className="text-gray-800 dark:text-gray-100">{paper.abstract}</p>
               <a
                 href={paper.url}
-                className="text-blue-600 hover:text-blue-800 mt-2 block dark:text-green-400 dark:hover:text-green-300"
+                className="text-blue-600 hover:text-blue-800 mt-2 block dark:text-green-400 dark:hover:text-green-300 underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >

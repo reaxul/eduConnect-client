@@ -10,31 +10,28 @@ import { Pagination, Navigation } from "swiper/modules";
 const Reviews = () => {
   const [reviews, setReviews] = useState();
     useEffect(() => {
-        fetch("reviews.json")
+        fetch("https://edu-connect-server.vercel.app/reviews")
       .then((res) => res.json())
       .then((data) => setReviews(data));
     },[])
-    console.log(reviews);
 
   return (
     <div className="my-10">
       <p className="text-center font-bold text-3xl">Feedback</p>
+      <p className="text-center">What people say about our colleges</p>
       <Swiper
-        pagination={{
-          type: "fraction",
-        }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper my-10"
       >
-        {/* {reviews.map((review) => (
+        {reviews?.map((review) => (
           <SwiperSlide key={review._id}>
             <div className="text-center">
                     <p className="font-bold text-3xl">{review.collegeName}</p>
                     <p><span className="font-bold">{ review.userName}:</span>{ review.feedback}</p>
             </div>
           </SwiperSlide>
-        ))} */}
+        ))}
       </Swiper>
     </div>
   );

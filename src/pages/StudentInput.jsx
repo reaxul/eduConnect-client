@@ -1,6 +1,7 @@
 
 import { useContext } from "react";
 import { RiImageAddFill, RiUserFill, RiMailLine } from "react-icons/ri";
+import { BsBook, BsFillCalendarDateFill,BsTelephoneInboundFill } from "react-icons/bs";
 import { AuthContext } from "../provider/AuthProvider";
 
 const StudentInput = () => {
@@ -9,27 +10,27 @@ const StudentInput = () => {
       e.preventDefault();
       const form = e.target;
       const name = form.name.value;
-      const sellerName = form.sellerName.value;
+      const guardianName = form.guardianName.value;
       const picture = form.picture.value;
-      const sellerEmail = form.sellerEmail.value;
-      const subcategory = form.subcategory.value;
-      const price = form.price.value;
-      const rating = form.rating.value;
-      const quantity = form.quantity.value;
+      const studentEmail = form.studentEmail.value;
+      const subject = form.subject.value;
+      const phone = form.phone.value;
+      const gpa = form.gpa.value;
+      const date = form.date.value;
       const description = form.description.value;
       const addToy = {
         name,
-        sellerName,
-        sellerEmail,
-        subcategory,
-        price,
-        rating,
-        quantity,
+        guardianName,
+        studentEmail,
+        subject,
+        phone,
+        gpa,
+        date,
         description,
         picture,
       };
       console.log(addToy);
-      fetch("https://toy-legend-server.vercel.app/toy-collection", {
+      fetch("https://edu-connect-server.vercel.app/student-info", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(addToy),
@@ -38,7 +39,7 @@ const StudentInput = () => {
         .then((data) => {
             console.log(data);
             if (data.insertedId) {
-              alert('Toy added successfully')
+              alert('Data submitted successfully')
             }
         });
     };
@@ -91,7 +92,7 @@ const StudentInput = () => {
               <div className="flex items-center">
                 <RiUserFill className="text-white mr-2" />
                 <label
-                  htmlFor="sellerName"
+                  htmlFor="guardianName"
                   className="block mb-1 font-medium text-white"
                 >
                   Guardian Name
@@ -111,7 +112,7 @@ const StudentInput = () => {
               <div className="flex items-center">
                 <RiMailLine className="text-white mr-2" />
                 <label
-                  htmlFor="sellerEmail"
+                  htmlFor="studentEmail"
                   className="block mb-1 font-medium text-white"
                 >
                   Student Email
@@ -129,9 +130,9 @@ const StudentInput = () => {
 
             <div>
               <div className="flex items-center">
-                <RiImageAddFill className="text-white mr-2" />
+                <BsBook className="text-white mr-2" />
                 <label
-                  htmlFor="subcategory"
+                  htmlFor="subject"
                   className="block mb-1 font-medium text-white"
                 >
                   Subject
@@ -152,7 +153,7 @@ const StudentInput = () => {
 
             <div>
               <div className="flex items-center">
-                <RiImageAddFill className="text-white mr-2" />
+                <BsTelephoneInboundFill className="text-white mr-2" />
                 <label
                   htmlFor="tel"
                   className="block mb-1 font-medium text-white"
@@ -173,7 +174,7 @@ const StudentInput = () => {
               <div className="flex items-center">
                 <RiImageAddFill className="text-white mr-2" />
                 <label
-                  htmlFor="rating"
+                  htmlFor="gpa"
                   className="block mb-1 font-medium text-white"
                 >
                   GPA
@@ -194,9 +195,9 @@ const StudentInput = () => {
 
             <div>
               <div className="flex items-center">
-                <RiImageAddFill className="text-white mr-2" />
+                <BsFillCalendarDateFill className="text-white mr-2" />
                 <label
-                  htmlFor="quantity"
+                  htmlFor="date"
                   className="block mb-1 font-medium text-white"
                 >
                   Date of birth

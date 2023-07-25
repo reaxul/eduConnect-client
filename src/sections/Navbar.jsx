@@ -72,13 +72,13 @@ const Navbar = () => {
               className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
             >
               <li>
-                <a className="justify-between">
+                <Link to="/profile" className="justify-between">
                   {user?.displayName}
                   <span className="badge">Active</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <Link to="/dashboard/my-classes">Dashboard</Link>
+                <Link to="/my-college">My College</Link>
               </li>
               <li>
                 <Link onClick={handleLogout}>Logout</Link>

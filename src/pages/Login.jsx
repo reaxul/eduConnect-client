@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { AuthContext } from "../provider/AuthProvider";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useForm } from "react-hook-form";
@@ -81,9 +81,9 @@ const Login = () => {
                   <span className="text-red-500">Password is required!</span>
                 )}
                 <label className="label">
-                  <a href="#" className="label-text-alt link link-hover">
+                  <Link to='/reset-password' className="label-text-alt link link-hover">
                     Forgot password?
-                  </a>
+                  </Link>
                 </label>
               </div>
               <div className="form-control"></div>

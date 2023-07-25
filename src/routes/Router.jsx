@@ -9,6 +9,9 @@ import CollegeDetails from "../pages/CollegeDetails";
 import PrivateRoute from "./PrivateRoute";
 import Admission from "../pages/Admission";
 import StudentInput from "../pages/StudentInput";
+import UserProfile from "../pages/UserProfile";
+import SearchResults from "../pages/SearchResult";
+import PasswordReset from "../pages/PasswordReset";
 
 export const router = createBrowserRouter([
   {
@@ -37,6 +40,22 @@ export const router = createBrowserRouter([
         element: <Admission></Admission>,
       },
       {
+        path: "profile",
+        element: (
+          <PrivateRoute>
+            <UserProfile></UserProfile>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "search-results",
+        element: <SearchResults></SearchResults>,
+      },
+      {
+        path: "reset-password",
+        element: <PasswordReset></PasswordReset>,
+      },
+      {
         path: "/college-details/:id",
         element: (
           <PrivateRoute>
@@ -48,11 +67,15 @@ export const router = createBrowserRouter([
           fetch(
             `https://edu-connect-server.vercel.app/college-details/${params.id}`
           ),
-        },
-        {
-            path: "/admission/:id",
-            element:<StudentInput></StudentInput>
-      }
+      },
+      {
+        path: "/admission/:id",
+        element: (
+          <PrivateRoute>
+            <StudentInput></StudentInput>
+          </PrivateRoute>
+        ),
+      },
     ],
   },
 ]);

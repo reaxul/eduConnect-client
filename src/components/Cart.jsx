@@ -12,7 +12,7 @@ const Cart = ({ collegeDetails }) => {
     sports,
   } = collegeDetails;
   return (
-    <div className="card card-compact w-96 bg-base-100 shadow-xl mt-8 border">
+    <div className="card card-compact w-96 bg-base-100 mx-auto shadow-xl mt-8 border">
       <figure>
         <img className="h-56 w-full" src={collegeImage} alt="Shoes" />
       </figure>
@@ -26,7 +26,7 @@ const Cart = ({ collegeDetails }) => {
           <div>
             <p className="font-bold text-xl">Sports:</p>
             <ul className="list-disc ml-5">
-              {sports.map((sport, i) => (
+              {sports?.map((sport, i) => (
                 <li key={i}>{sport.sportName}</li>
               ))}
             </ul>
@@ -35,7 +35,7 @@ const Cart = ({ collegeDetails }) => {
           <div>
             <p className="font-bold text-xl">Events:</p>
             <ul className="list-disc ml-5">
-              {events.map((event, i) => (
+              {events?.map((event, i) => (
                 <li key={i}>{event.eventName}</li>
               ))}
             </ul>
